@@ -1,5 +1,5 @@
 {
-  "name": "passport-oauth2",
+  "name": "@valiu/passport-oauth2",
   "version": "1.5.0",
   "description": "OAuth 2.0 authentication strategy for Passport.",
   "keywords": [
@@ -51,5 +51,8 @@
   },
   "scripts": {
     "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js test/**/*.test.js"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
